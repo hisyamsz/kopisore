@@ -309,13 +309,13 @@ footer {
     padding: 1rem 0 2rem;
 }
 
-footer h5 {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
+footer h4 {
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0.2rem;
     font-weight: 600;
 }
 
-footer h5 span {
+footer h4 span {
     color: var(--bg);
 }
 
@@ -341,11 +341,11 @@ footer .links {
 footer .links a {
     color: white;
     padding: 0.8rem 0.8rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 footer .copyright {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 footer .copyright a {
