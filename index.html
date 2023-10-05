@@ -25,6 +25,7 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="navbar-extra">
@@ -32,6 +33,41 @@
         <a href="#" id="cart"><i class="bi bi-cart"></i></a>
         <a id="hamburger-menu"><i class="bi bi-list"></i></a>
       </div>
+      <!-- Search Box Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i class="bi bi-search"></i></label>
+      </div>
+      <!-- Search Box End -->
+
+      <!-- Shopping cart start -->
+      <div class="shop-cart">
+        <div class="cart-item">
+          <img src="img/products/coffe-product.jpg" alt="Products" />
+          <div class="cart-detail">
+            <h3>Coffee Beans</h3>
+            <div class="cart-price">IDR 30K</div>
+          </div>
+          <i class="bi bi-trash cart-remove"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/coffe-product.jpg" alt="Products" />
+          <div class="cart-detail">
+            <h3>Coffee Beans</h3>
+            <div class="cart-price">IDR 30K</div>
+          </div>
+          <i class="bi bi-trash cart-remove"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/coffe-product.jpg" alt="Products" />
+          <div class="cart-detail">
+            <h3>Coffee Beans</h3>
+            <div class="cart-price">IDR 30K</div>
+          </div>
+          <i class="bi bi-trash cart-remove"></i>
+        </div>
+      </div>
+      <!-- Shopping cart end -->
     </nav>
     <!-- Navbar End -->
 
@@ -116,6 +152,78 @@
     </section>
     <!-- Menu Section End -->
 
+    <!-- Products Section Start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan </span>Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius animi
+        quia, at qui eum error?
+      </p>
+      <div class="row">
+        <div class="product-card">
+          <h3><span>Coffee </span>Beans</h3>
+          <div class="product-img">
+            <img src="img/products/coffe-product.jpg" alt="Products" />
+          </div>
+          <div class="product-content">
+            <div class="product-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="product-price">IDR 30k <span>IDR 45k</span></div>
+          </div>
+          <div class="product-icons">
+            <a href="#"><i class="bi bi-cart-fill"></i></a>
+            <a href="#"><i class="bi bi-eye-fill item-detail"></i></a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3><span>Coffee </span>Beans</h3>
+          <div class="product-img">
+            <img src="img/products/coffe-product.jpg" alt="Products" />
+          </div>
+          <div class="product-content">
+            <div class="product-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="product-price">IDR 30k <span>IDR 45k</span></div>
+          </div>
+          <div class="product-icons">
+            <a href="#"><i class="bi bi-cart-fill"></i></a>
+            <a href="#"><i class="bi bi-eye-fill item-detail"></i></a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3><span>Coffee </span>Beans</h3>
+          <div class="product-img">
+            <img src="img/products/coffe-product.jpg" alt="Products" />
+          </div>
+          <div class="product-content">
+            <div class="product-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="product-price">IDR 30k <span>IDR 45k</span></div>
+          </div>
+          <div class="product-icons">
+            <a href="#"><i class="bi bi-cart-fill"></i></a>
+            <a href="#"><i class="bi bi-eye-fill item-detail"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section End -->
+
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
       <h2><span>Kontak </span>Kami</h2>
@@ -171,6 +279,36 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- Modal Box Content Start -->
+    <div class="modal" id="modal-item-detail">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/products/coffe-product.jpg" alt="Product" />
+          <div class="product-content">
+            <h3>Product</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt
+              aut nam aliquam fugiat illum officia! Voluptatibus, numquam velit?
+              Optio rerum et assumenda aliquid quos?
+            </p>
+            <div class="product-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="product-price">IDR 30k <span>IDR 45k</span></div>
+            <a href="#"
+              ><i class="bi bi-cart-fill"></i><span>Add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Content End -->
 
     <!-- My Javascript -->
     <script src="script.js"></script>
