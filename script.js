@@ -69,3 +69,19 @@ window.onclick = (e) => {
         modal.style.display = 'none';
     }
 }
+
+// Search
+const iconSearch = document.querySelector('.icon-search');
+
+function performSearch() {
+    const searchTerm = searchBox.value;
+};
+
+iconSearch.addEventListener('click', performSearch);
+
+searchBox.addEventListener('keydown', function (e) {
+    if (e.key == 'Enter') {
+        performSearch();
+    }
+});
+
